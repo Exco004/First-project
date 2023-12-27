@@ -1,18 +1,53 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    margin: 0;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-color: black;
 }
 
+h1{
+    display: flex;
+    font-family: Arial, strong, large;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 9px;
+    color: #B7B6C1;
+    text-decoration: underline;
+    text-decoration-color: #94958b;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+nav li a:hover{
+    background-color: beige;
+    color: black;
+}
 .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #362121;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -28,7 +63,7 @@ select,
 textarea {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 5px;
 }
 
@@ -36,7 +71,7 @@ input[type="submit"] {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #007bff;
-    color: #ffffff;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
