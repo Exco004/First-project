@@ -47,10 +47,11 @@ nav li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #362121;
+    background-color: #000000;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
 label {
@@ -80,3 +81,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
