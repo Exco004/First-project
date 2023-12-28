@@ -42,3 +42,31 @@ nav li a:hover{
     background-color: beige;
     color: black;
 }
+img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    width: 1330px;
+    height: 500px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
